@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: BusinessApp1Container
-        image: us.icr.io/ibmperumf/BusinessApp1
+        image: us.icr.io/ibmperumf2/BusinessApp1
         ports:
         - containerPort: 80        
 ---
