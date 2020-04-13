@@ -6,6 +6,14 @@
     <title>@ViewData["Title"] - BusinessApp1</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js"></script>
+    <script>
+        window.loadWatsonAssistantChat({
+            integrationID: "bb6b0b15-197f-4e93-b5c1-44fca4339d28", region: "us-south"
+        }).then(function (instance) {
+            instance.render();
+        });
+    </script>
 </head>
 <body>
     <header>
