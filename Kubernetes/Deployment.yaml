@@ -32,6 +32,6 @@ spec:
    - name: client
      protocol: TCP
      port: 80
-     nodePort: 32089
+     nodePort: 32090
  selector:
    app: businessapp1
